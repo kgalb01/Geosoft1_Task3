@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kieran Galbraith">
+  <meta name="description" content="Geosoftware Task 3">
+  <title>Geosoftware1 Task 3</title>
+  </head>
+
+  <body>
+    <div id="main">
+    <script src="pois.js"></script>
+    <script src="point.js"></script>
+    <textarea rows="10" id="userGeoJSON"></textarea><br>
+    <button class="button" type="button" onclick="BusAbfrage.sendHaltestellen()">Berechne Entfernungen!</button>
+    <button class="button" type="button" onclick="getLocation()">Was ist meine Position?</button>
+    <h2>Entfernungen eines Punktes zu verschiedenen Bushaltestellen in Münster</h2>
+    </div>
+    <div id="bus">
+    </div>
+  </body>
+
+  </html>
+  <script src="main.js"></script>
